@@ -1,0 +1,82 @@
+[
+  {
+    "id": "UdXvNxV1I5lZ",
+    "title": "MOYKA",
+    "amount": 8,
+    "when": "2026-01-03",
+    "createdAt": "2026-01-06T15:52:38.437Z",
+    "updatedAt": "2026-01-06T15:52:38.437Z"
+  },
+  {
+    "id": "Ubz9rwTAQu-x",
+    "title": "A4",
+    "amount": 7,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:52:46.298Z",
+    "updatedAt": "2026-01-06T15:52:46.298Z"
+  },
+  {
+    "id": "Dr7S-496xP4A",
+    "title": "BENZIN",
+    "amount": 10,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:52:56.929Z",
+    "updatedAt": "2026-01-06T15:52:56.929Z"
+  },
+  {
+    "id": "TrxrOS10_SGx",
+    "title": "QEZI",
+    "amount": 5,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:53:16.854Z",
+    "updatedAt": "2026-01-06T15:53:16.854Z"
+  },
+  {
+    "id": "WVeKHwYumheY",
+    "title": "BENZN",
+    "amount": 10,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:53:33.072Z",
+    "updatedAt": "2026-01-06T15:53:33.072Z"
+  },
+  {
+    "id": "2D-tO3u0ONPK",
+    "title": "PARKOFKA",
+    "amount": 6,
+    "when": "2026-01-05",
+    "createdAt": "2026-01-06T15:54:00.970Z",
+    "updatedAt": "2026-01-06T15:54:00.970Z"
+  },
+  {
+    "id": "tACspq8Z2qXi",
+    "title": "BENZN",
+    "amount": 5,
+    "when": "2026-01-06",
+    "createdAt": "2026-01-06T15:54:12.475Z",
+    "updatedAt": "2026-01-06T15:54:12.475Z"
+  },
+  {
+    "id": "IMqGu2jl31hU",
+    "title": "RENT AZ",
+    "amount": 55,
+    "when": "2026-01-06",
+    "createdAt": "2026-01-15T21:57:11.944Z",
+    "updatedAt": "2026-01-15T21:57:11.944Z"
+  },
+  {
+    "id": "T9b56DqhPAtE",
+    "title": "NOTARIUS RUSDA",
+    "amount": 150,
+    "when": "2026-01-07",
+    "createdAt": "2026-01-15T22:00:06.832Z",
+    "updatedAt": "2026-01-15T22:00:06.832Z"
+  },
+  {
+    "id": "TPdTsOo1oH-p",
+    "title": "VERGI",
+    "amount": 100,
+    "when": "2026-01-08",
+    "createdAt": "2026-01-15T22:00:23.720Z",
+    "updatedAt": "2026-01-15T22:00:23.720Z"
+  }
+]

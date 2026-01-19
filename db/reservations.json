@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "UmkWHQ_5oBZL",
+    "carId": "25gHU7WcK8Ek",
+    "customerId": "BsTUOXo_DUPt",
+    "startAt": "2026-01-03T00:00",
+    "endAt": "2026-01-07T00:00",
+    "pricePerDay": 40,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-03",
+        "price": 40,
+        "paid": 40,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-04",
+        "price": 40,
+        "paid": 40,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-05",
+        "price": 40,
+        "paid": 40,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-06",
+        "price": 0,
+        "paid": 0,
+        "status": "free",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-07",
+        "price": 0,
+        "paid": 0,
+        "status": "free",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 120,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 120,
+    "notes": "",
+    "createdAt": "2026-01-05T09:37:28.748Z",
+    "updatedAt": "2026-01-14T14:58:51.259Z"
+  },
+  {
+    "id": "DLyG_zUaUNAB",
+    "carId": "TjA1twyVgpfj",
+    "customerId": "Oas1NRuJICxx",
+    "startAt": "2026-01-03T00:00",
+    "endAt": "2026-01-03T00:00",
+    "pricePerDay": 80,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-03",
+        "price": 80,
+        "paid": 80,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 80,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 80,
+    "notes": "",
+    "createdAt": "2026-01-05T09:39:52.996Z",
+    "updatedAt": "2026-01-05T09:40:08.021Z"
+  },
+  {
+    "id": "Wk1JewylwffG",
+    "carId": "6AkIFQlF20JH",
+    "customerId": "tE-NBIE8YnE2",
+    "startAt": "2026-01-03T00:00",
+    "endAt": "2026-01-03T00:00",
+    "pricePerDay": 80,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-03",
+        "price": 80,
+        "paid": 80,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 80,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 80,
+    "notes": "",
+    "createdAt": "2026-01-05T09:41:02.058Z",
+    "updatedAt": "2026-01-05T09:41:17.310Z"
+  },
+  {
+    "id": "TBY2dnCo2BR0",
+    "carId": "AMAoEXGbKKv4",
+    "customerId": "CyaxCP5-0x2h",
+    "startAt": "2026-01-03T00:00",
+    "endAt": "2026-01-16T00:00",
+    "pricePerDay": 30,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-03",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-04",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-05",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-06",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-07",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-08",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-09",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-10",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-11",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-12",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-13",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-14",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-15",
+        "price": 30,
+        "paid": 30,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-16",
+        "price": 30,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 420,
+    "destination": "",
+    "deposit": 0,
+    "status": "BOOKED",
+    "isPaid": false,
+    "amountPaid": 390,
+    "notes": "",
+    "createdAt": "2026-01-05T09:42:27.555Z",
+    "updatedAt": "2026-01-15T21:43:53.666Z"
+  },
+  {
+    "id": "JOvmov_YL7cm",
+    "carId": "-2G8cFNET24k",
+    "customerId": "N6hxRfimIgE5",
+    "startAt": "2026-01-04T00:00",
+    "endAt": "2026-01-14T00:00",
+    "pricePerDay": 50,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-04",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-05",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-06",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-07",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-08",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-09",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-10",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-11",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-12",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-13",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-14",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 550,
+    "destination": "",
+    "deposit": 0,
+    "status": "BOOKED",
+    "isPaid": false,
+    "amountPaid": 400,
+    "notes": "",
+    "createdAt": "2026-01-05T09:43:25.723Z",
+    "updatedAt": "2026-01-15T21:29:25.161Z"
+  },
+  {
+    "id": "yVLP25dL-ykF",
+    "carId": "4MN-RVT3BV7U",
+    "customerId": "-GICXaoCeR_I",
+    "startAt": "2026-01-04T00:00",
+    "endAt": "2026-01-04T00:00",
+    "pricePerDay": 100,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-04",
+        "price": 100,
+        "paid": 100,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 100,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 100,
+    "notes": "",
+    "createdAt": "2026-01-05T09:45:11.437Z",
+    "updatedAt": "2026-01-05T09:45:24.536Z"
+  },
+  {
+    "id": "NSzeHyIFPJer",
+    "carId": "smdgzO91fl0t",
+    "customerId": "g-HgWTzo1h1Q",
+    "startAt": "2026-01-04T00:00",
+    "endAt": "2026-01-04T00:00",
+    "pricePerDay": 100,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-04",
+        "price": 100,
+        "paid": 100,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 100,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 100,
+    "notes": "",
+    "createdAt": "2026-01-05T09:47:58.992Z",
+    "updatedAt": "2026-01-05T09:48:50.504Z"
+  },
+  {
+    "id": "hKXNyhSgut6W",
+    "carId": "1kiOpatKmMZ-",
+    "customerId": "pN5vCOis__GC",
+    "startAt": "2026-01-04T00:00",
+    "endAt": "2026-01-05T00:00",
+    "pricePerDay": 65,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-04",
+        "price": 65,
+        "paid": 65,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-05",
+        "price": 65,
+        "paid": 65,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 130,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 130,
+    "notes": "",
+    "createdAt": "2026-01-05T09:51:08.353Z",
+    "updatedAt": "2026-01-05T09:52:01.702Z"
+  },
+  {
+    "id": "yeg_wRpeQDc-",
+    "carId": "qHQapUPqbeGl",
+    "customerId": "JVwj4KP6S8qv",
+    "startAt": "2026-01-04T00:00",
+    "endAt": "2026-01-05T00:00",
+    "pricePerDay": 80,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-04",
+        "price": 80,
+        "paid": 80,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-05",
+        "price": 80,
+        "paid": 80,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 160,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 160,
+    "notes": "",
+    "createdAt": "2026-01-05T09:53:13.718Z",
+    "updatedAt": "2026-01-14T14:58:36.910Z"
+  },
+  {
+    "id": "syAJ378QMJS8",
+    "carId": "XtlmU8KIMg0J",
+    "customerId": "pWaJOXRS9CSH",
+    "startAt": "2026-01-03T00:00",
+    "endAt": "2026-01-09T00:00",
+    "pricePerDay": 50,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-03",
+        "price": 100,
+        "paid": 100,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-04",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-05",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-06",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-07",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-08",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-09",
+        "price": 450,
+        "paid": 450,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 800,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 800,
+    "notes": "",
+    "createdAt": "2026-01-05T09:54:01.333Z",
+    "updatedAt": "2026-01-15T21:48:34.766Z"
+  },
+  {
+    "id": "lD-r8QBwPIvs",
+    "carId": "XcyGgck0UoCz",
+    "customerId": "NyqXlY_6bcL-",
+    "startAt": "2026-01-05T00:00",
+    "endAt": "2026-01-14T00:00",
+    "pricePerDay": 60,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-05",
+        "price": 180,
+        "paid": 180,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-06",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-07",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-08",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-09",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-10",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-11",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-12",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-13",
+        "price": 60,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-14",
+        "price": 60,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 720,
+    "destination": "",
+    "deposit": 0,
+    "status": "BOOKED",
+    "isPaid": false,
+    "amountPaid": 600,
+    "notes": "",
+    "createdAt": "2026-01-06T10:17:40.980Z",
+    "updatedAt": "2026-01-15T21:54:00.707Z"
+  },
+  {
+    "id": "xEVHjAxP2sZ0",
+    "carId": "IHAnxKRfrZPe",
+    "customerId": "PHeoVelK4_me",
+    "startAt": "2026-01-05T00:00",
+    "endAt": "2026-01-14T00:00",
+    "pricePerDay": 50,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-05",
+        "price": 250,
+        "paid": 250,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-06",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-07",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-08",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-09",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-10",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-11",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-12",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-13",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-14",
+        "price": 50,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 700,
+    "destination": "",
+    "deposit": 0,
+    "status": "BOOKED",
+    "isPaid": false,
+    "amountPaid": 350,
+    "notes": "",
+    "createdAt": "2026-01-06T10:19:19.982Z",
+    "updatedAt": "2026-01-15T21:49:52.401Z"
+  },
+  {
+    "id": "PzEpiw0ONC1h",
+    "carId": "4MN-RVT3BV7U",
+    "customerId": "cs31tvd_VM5a",
+    "startAt": "2026-01-06T00:00",
+    "endAt": "2026-01-06T00:00",
+    "pricePerDay": 80,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-06",
+        "price": 110,
+        "paid": 110,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 110,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 110,
+    "notes": "",
+    "createdAt": "2026-01-06T10:20:18.540Z",
+    "updatedAt": "2026-01-15T21:55:49.311Z"
+  },
+  {
+    "id": "P87VFnKlIZ69",
+    "carId": "pCAj8LookLv5",
+    "customerId": "h8jwpd4pc6BW",
+    "startAt": "2026-01-04T00:00",
+    "endAt": "2026-01-10T00:00",
+    "pricePerDay": 50,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-04",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-05",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-06",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-07",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-08",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-09",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-10",
+        "price": 50,
+        "paid": 50,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 350,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 350,
+    "notes": "",
+    "createdAt": "2026-01-06T10:21:07.424Z",
+    "updatedAt": "2026-01-14T15:01:00.498Z"
+  },
+  {
+    "id": "XFqrimRK19wC",
+    "carId": "2hBISxb4TZmV",
+    "customerId": "_1GZM4SqEkm7",
+    "startAt": "2026-01-06T00:00",
+    "endAt": "2026-01-06T00:00",
+    "pricePerDay": 100,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-06",
+        "price": 100,
+        "paid": 100,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 100,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 100,
+    "notes": "",
+    "createdAt": "2026-01-06T15:47:45.173Z",
+    "updatedAt": "2026-01-06T15:47:59.635Z"
+  },
+  {
+    "id": "NNuQUyMUq1C_",
+    "carId": "PMcnyB9S4lTF",
+    "customerId": "axLvOh4iecQX",
+    "startAt": "2026-01-04T00:00",
+    "endAt": "2026-01-04T00:00",
+    "pricePerDay": 60,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-04",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 60,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 60,
+    "notes": "",
+    "createdAt": "2026-01-15T21:26:00.435Z",
+    "updatedAt": "2026-01-15T21:26:14.993Z"
+  },
+  {
+    "id": "z8oafHtBE-Fc",
+    "carId": "smdgzO91fl0t",
+    "customerId": "gyZePhvurdii",
+    "startAt": "2026-01-12T00:00",
+    "endAt": "2026-01-13T00:00",
+    "pricePerDay": 135,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-12",
+        "price": 135,
+        "paid": 135,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-13",
+        "price": 135,
+        "paid": 135,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 270,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 270,
+    "notes": "",
+    "createdAt": "2026-01-15T21:27:05.509Z",
+    "updatedAt": "2026-01-15T21:27:26.535Z"
+  },
+  {
+    "id": "XWBv3I2bUKVM",
+    "carId": "-6dWtWryzhLw",
+    "customerId": "cMX5C2E9uWwh",
+    "startAt": "2026-01-03T00:00",
+    "endAt": "2026-01-03T00:00",
+    "pricePerDay": 1200,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-03",
+        "price": 1200,
+        "paid": 1200,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 1200,
+    "destination": "",
+    "deposit": 0,
+    "status": "BOOKED",
+    "isPaid": true,
+    "amountPaid": 1200,
+    "notes": "",
+    "createdAt": "2026-01-15T21:30:59.067Z",
+    "updatedAt": "2026-01-15T21:31:09.090Z"
+  },
+  {
+    "id": "iruB-TWaD6pR",
+    "carId": "NDeJFUmEdvkP",
+    "customerId": "_1GZM4SqEkm7",
+    "startAt": "2026-01-05T00:00",
+    "endAt": "2026-01-06T00:00",
+    "pricePerDay": 185,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-05",
+        "price": 185,
+        "paid": 185,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-06",
+        "price": 185,
+        "paid": 185,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 370,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 370,
+    "notes": "",
+    "createdAt": "2026-01-15T21:33:18.645Z",
+    "updatedAt": "2026-01-15T21:33:40.739Z"
+  },
+  {
+    "id": "lTBCDEfpeirG",
+    "carId": "3S6c4Yruk54M",
+    "customerId": "cs31tvd_VM5a",
+    "startAt": "2026-01-12T00:00",
+    "endAt": "2026-01-12T00:00",
+    "pricePerDay": 110,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-12",
+        "price": 110,
+        "paid": 110,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 110,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 110,
+    "notes": "",
+    "createdAt": "2026-01-15T21:34:28.898Z",
+    "updatedAt": "2026-01-15T21:34:43.116Z"
+  },
+  {
+    "id": "LgC0jnvavXkg",
+    "carId": "1kiOpatKmMZ-",
+    "customerId": "pWaJOXRS9CSH",
+    "startAt": "2026-01-12T00:00",
+    "endAt": "2026-01-12T00:00",
+    "pricePerDay": 320,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-12",
+        "price": 320,
+        "paid": 320,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 320,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 320,
+    "notes": "",
+    "createdAt": "2026-01-15T21:35:32.354Z",
+    "updatedAt": "2026-01-15T21:35:45.772Z"
+  },
+  {
+    "id": "8etSdy6XFy2U",
+    "carId": "25gHU7WcK8Ek",
+    "customerId": "mCjdQfWLDaW9",
+    "startAt": "2026-01-12T00:00",
+    "endAt": "2026-01-12T00:00",
+    "pricePerDay": 400,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-12",
+        "price": 400,
+        "paid": 400,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 400,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 400,
+    "notes": "",
+    "createdAt": "2026-01-15T21:36:24.303Z",
+    "updatedAt": "2026-01-15T21:36:38.800Z"
+  },
+  {
+    "id": "sCVBhpb8iTwv",
+    "carId": "QjOSbG_ovT-K",
+    "customerId": "mCjdQfWLDaW9",
+    "startAt": "2026-01-06T00:00",
+    "endAt": "2026-01-06T00:00",
+    "pricePerDay": 140,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-06",
+        "price": 140,
+        "paid": 140,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 140,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 140,
+    "notes": "",
+    "createdAt": "2026-01-15T21:37:58.950Z",
+    "updatedAt": "2026-01-15T21:38:58.687Z"
+  },
+  {
+    "id": "DvHYkv8TOlzL",
+    "carId": "5ydedSUacX3H",
+    "customerId": "g-HgWTzo1h1Q",
+    "startAt": "2026-01-06T00:00",
+    "endAt": "2026-01-06T00:00",
+    "pricePerDay": 250,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-06",
+        "price": 250,
+        "paid": 250,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 250,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 250,
+    "notes": "",
+    "createdAt": "2026-01-15T21:45:28.297Z",
+    "updatedAt": "2026-01-15T21:45:41.642Z"
+  },
+  {
+    "id": "112WF1soh2X-",
+    "carId": "KeiK1Jd7nQQG",
+    "customerId": "tE-NBIE8YnE2",
+    "startAt": "2026-01-13T00:00",
+    "endAt": "2026-01-13T00:00",
+    "pricePerDay": 180,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-13",
+        "price": 180,
+        "paid": 180,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 180,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 180,
+    "notes": "",
+    "createdAt": "2026-01-15T21:46:30.928Z",
+    "updatedAt": "2026-01-15T21:46:43.268Z"
+  },
+  {
+    "id": "d2NPRwgn4aYJ",
+    "carId": "4mLCAwYRo5LX",
+    "customerId": "Oas1NRuJICxx",
+    "startAt": "2026-01-14T00:00",
+    "endAt": "2026-01-14T00:00",
+    "pricePerDay": 170,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-14",
+        "price": 170,
+        "paid": 170,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 170,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 170,
+    "notes": "",
+    "createdAt": "2026-01-15T21:50:40.725Z",
+    "updatedAt": "2026-01-15T21:50:56.701Z"
+  },
+  {
+    "id": "nIUZMtKq9sPz",
+    "carId": "lGS2iv-Ir6WJ",
+    "customerId": "JVwj4KP6S8qv",
+    "startAt": "2026-01-08T00:00",
+    "endAt": "2026-01-08T00:00",
+    "pricePerDay": 200,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-08",
+        "price": 200,
+        "paid": 200,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 200,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 200,
+    "notes": "",
+    "createdAt": "2026-01-15T21:51:49.696Z",
+    "updatedAt": "2026-01-15T21:52:04.894Z"
+  },
+  {
+    "id": "OEFumN-YcfiQ",
+    "carId": "qHQapUPqbeGl",
+    "customerId": "cs31tvd_VM5a",
+    "startAt": "2026-01-13T00:00",
+    "endAt": "2026-01-13T00:00",
+    "pricePerDay": 70,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-13",
+        "price": 70,
+        "paid": 70,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 70,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 70,
+    "notes": "",
+    "createdAt": "2026-01-15T21:54:46.486Z",
+    "updatedAt": "2026-01-15T21:55:07.772Z"
+  },
+  {
+    "id": "CvIzQ92pmhit",
+    "carId": "XtlmU8KIMg0J",
+    "customerId": "SsHi7_6y2PNn",
+    "startAt": "2026-01-16T00:00",
+    "endAt": "2026-01-16T00:00",
+    "pricePerDay": 100,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-16",
+        "price": 100,
+        "paid": 100,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 100,
+    "destination": "",
+    "deposit": 0,
+    "status": "COMPLETED",
+    "isPaid": true,
+    "amountPaid": 100,
+    "notes": "",
+    "createdAt": "2026-01-16T10:25:56.107Z",
+    "updatedAt": "2026-01-17T11:02:23.074Z"
+  },
+  {
+    "id": "BXUywBXCutNg",
+    "carId": "TjA1twyVgpfj",
+    "customerId": "2_wkhkFoascN",
+    "startAt": "2026-01-16T00:00",
+    "endAt": "2026-01-16T00:00",
+    "pricePerDay": 110,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-16",
+        "price": 110,
+        "paid": 110,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 110,
+    "destination": "",
+    "deposit": 0,
+    "status": "BOOKED",
+    "isPaid": true,
+    "amountPaid": 110,
+    "notes": "",
+    "createdAt": "2026-01-16T16:37:07.148Z",
+    "updatedAt": "2026-01-16T16:37:16.267Z"
+  },
+  {
+    "id": "W3j6Nf7RT-gu",
+    "carId": "7_NLhMK7uN9X",
+    "customerId": "BsTUOXo_DUPt",
+    "startAt": "2026-01-17T00:00",
+    "endAt": "2026-01-19T00:00",
+    "pricePerDay": 60,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-17",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-18",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      },
+      {
+        "date": "2026-01-19",
+        "price": 60,
+        "paid": 60,
+        "status": "paid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 180,
+    "destination": "",
+    "deposit": 0,
+    "status": "BOOKED",
+    "isPaid": true,
+    "amountPaid": 180,
+    "notes": "",
+    "createdAt": "2026-01-17T11:03:45.358Z",
+    "updatedAt": "2026-01-17T11:04:18.014Z"
+  },
+  {
+    "id": "BOjPakGLd9Eh",
+    "carId": "PMcnyB9S4lTF",
+    "customerId": "SsHi7_6y2PNn",
+    "startAt": "2026-01-19T00:00",
+    "endAt": "2026-01-19T00:00",
+    "pricePerDay": 60,
+    "discountPercent": 0,
+    "days": [
+      {
+        "date": "2026-01-19",
+        "price": 60,
+        "paid": 0,
+        "status": "unpaid",
+        "notes": ""
+      }
+    ],
+    "totalPrice": 60,
+    "destination": "",
+    "deposit": 0,
+    "status": "BOOKED",
+    "isPaid": false,
+    "amountPaid": 0,
+    "notes": "",
+    "createdAt": "2026-01-19T11:58:01.153Z",
+    "updatedAt": "2026-01-19T11:58:28.775Z"
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "KgZyGm_wnINT",
+    "carId": "QjOSbG_ovT-K",
+    "title": "TEKER",
+    "amount": 75,
+    "when": "2026-01-03",
+    "createdAt": "2026-01-06T15:49:00.451Z",
+    "updatedAt": "2026-01-06T15:49:00.451Z"
+  },
+  {
+    "id": "fBZ9wTpZ__Iu",
+    "carId": "DDBV4lq9ydLU",
+    "title": "ADIL",
+    "amount": 200,
+    "when": "2026-01-03",
+    "createdAt": "2026-01-06T15:49:21.651Z",
+    "updatedAt": "2026-01-06T15:49:21.651Z"
+  },
+  {
+    "id": "5je0885h0knp",
+    "carId": "1kiOpatKmMZ-",
+    "title": "TEKER",
+    "amount": 5,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:49:33.981Z",
+    "updatedAt": "2026-01-06T15:49:33.981Z"
+  },
+  {
+    "id": "aZnfL57SHnrL",
+    "carId": "3S6c4Yruk54M",
+    "title": "YAG FILTER",
+    "amount": 150,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:49:47.772Z",
+    "updatedAt": "2026-01-06T15:49:47.772Z"
+  },
+  {
+    "id": "wqfPUbVE42Vf",
+    "carId": "PMcnyB9S4lTF",
+    "title": "QRANAT",
+    "amount": 280,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:50:01.996Z",
+    "updatedAt": "2026-01-06T15:50:01.996Z"
+  },
+  {
+    "id": "XX29RiIAW0NI",
+    "carId": "3S6c4Yruk54M",
+    "title": "YAG USDA",
+    "amount": 10,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:50:11.824Z",
+    "updatedAt": "2026-01-06T15:50:11.824Z"
+  },
+  {
+    "id": "3ltJEIwFrZC5",
+    "carId": "NDeJFUmEdvkP",
+    "title": "YAG USDA",
+    "amount": 10,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:50:22.635Z",
+    "updatedAt": "2026-01-06T15:50:22.635Z"
+  },
+  {
+    "id": "TZ-7el-XvDac",
+    "carId": "3S6c4Yruk54M",
+    "title": "HAVA FILTER",
+    "amount": 15,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:50:38.589Z",
+    "updatedAt": "2026-01-06T15:50:38.589Z"
+  },
+  {
+    "id": "F_okUjqi3chH",
+    "carId": "PMcnyB9S4lTF",
+    "title": "DIAQNOSTIKA",
+    "amount": 30,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:50:59.308Z",
+    "updatedAt": "2026-01-06T15:50:59.308Z"
+  },
+  {
+    "id": "UaQLFQwZ25Dm",
+    "carId": "QjOSbG_ovT-K",
+    "title": "TEMIZLEME",
+    "amount": 40,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:51:15.691Z",
+    "updatedAt": "2026-01-06T15:51:15.691Z"
+  },
+  {
+    "id": "wiG2bAK1V41-",
+    "carId": "PMcnyB9S4lTF",
+    "title": "USDA",
+    "amount": 10,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:51:30.458Z",
+    "updatedAt": "2026-01-06T15:51:30.458Z"
+  },
+  {
+    "id": "CuzwIDS7hIqb",
+    "carId": "PMcnyB9S4lTF",
+    "title": "ELEKTRIK",
+    "amount": 3,
+    "when": "2026-01-04",
+    "createdAt": "2026-01-06T15:51:43.507Z",
+    "updatedAt": "2026-01-06T15:51:43.507Z"
+  },
+  {
+    "id": "87xq6Hj5lGqq",
+    "carId": "smdgzO91fl0t",
+    "title": "ZASITNIK",
+    "amount": 5,
+    "when": "2026-01-06",
+    "createdAt": "2026-01-06T15:52:10.752Z",
+    "updatedAt": "2026-01-06T15:52:10.752Z"
+  },
+  {
+    "id": "L42e-2mwPCz5",
+    "carId": "AMAoEXGbKKv4",
+    "title": "QAYI",
+    "amount": 150,
+    "when": "2026-01-06",
+    "createdAt": "2026-01-06T15:52:24.361Z",
+    "updatedAt": "2026-01-06T15:52:24.361Z"
+  },
+  {
+    "id": "6aygSytoLAkT",
+    "carId": "Am_8DhI2wcZg",
+    "title": "MALYAR",
+    "amount": 500,
+    "when": "2026-01-07",
+    "createdAt": "2026-01-15T21:57:41.476Z",
+    "updatedAt": "2026-01-15T21:57:41.476Z"
+  },
+  {
+    "id": "x27k5hXWjqCJ",
+    "carId": "Am_8DhI2wcZg",
+    "title": "KNOPKA GERMETIKA",
+    "amount": 20,
+    "when": "2026-01-07",
+    "createdAt": "2026-01-15T21:58:15.159Z",
+    "updatedAt": "2026-01-15T21:58:15.159Z"
+  },
+  {
+    "id": "Poph4IwCxwQ0",
+    "carId": "Am_8DhI2wcZg",
+    "title": "ZAPCAST",
+    "amount": 205,
+    "when": "2026-01-08",
+    "createdAt": "2026-01-15T21:58:43.739Z",
+    "updatedAt": "2026-01-15T21:58:43.739Z"
+  },
+  {
+    "id": "imeIKmfdERoC",
+    "carId": "QjOSbG_ovT-K",
+    "title": "KANT",
+    "amount": 40,
+    "when": "2026-01-08",
+    "createdAt": "2026-01-15T21:59:00.559Z",
+    "updatedAt": "2026-01-15T21:59:00.559Z"
+  },
+  {
+    "id": "oKq7iv9oJlYj",
+    "carId": "qHQapUPqbeGl",
+    "title": "SIRGA+USDA",
+    "amount": 35,
+    "when": "2026-01-08",
+    "createdAt": "2026-01-15T21:59:33.540Z",
+    "updatedAt": "2026-01-15T21:59:33.540Z"
+  }
+]

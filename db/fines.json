@@ -1,0 +1,86 @@
+[
+  {
+    "id": "fine_XbjOTpxMu5",
+    "carId": "PMcnyB9S4lTF",
+    "customerId": "X24TyhQTSVMM",
+    "amount": 100,
+    "points": 0,
+    "date": "2026-01-03",
+    "reason": "",
+    "isPaid": true,
+    "amountPaid": 100,
+    "createdAt": "2026-01-05T09:39:03.610Z"
+  },
+  {
+    "id": "fine_JE4XJKS9gl",
+    "carId": "KeiK1Jd7nQQG",
+    "customerId": "mCjdQfWLDaW9",
+    "amount": 100,
+    "points": 0,
+    "date": "2026-01-05",
+    "reason": "",
+    "isPaid": true,
+    "amountPaid": 100,
+    "createdAt": "2026-01-05T09:56:32.150Z"
+  },
+  {
+    "id": "fine_4CrM8N4JDN",
+    "carId": "pCAj8LookLv5",
+    "customerId": "h8jwpd4pc6BW",
+    "amount": 100,
+    "points": 0,
+    "date": "2026-01-13",
+    "reason": "",
+    "isPaid": true,
+    "amountPaid": 100,
+    "createdAt": "2026-01-15T21:31:48.295Z"
+  },
+  {
+    "id": "fine_lCpzwZwNOm",
+    "carId": "AMAoEXGbKKv4",
+    "customerId": "CyaxCP5-0x2h",
+    "amount": 135,
+    "points": 0,
+    "date": "2026-01-13",
+    "reason": "",
+    "isPaid": true,
+    "amountPaid": 135,
+    "createdAt": "2026-01-15T21:44:23.710Z"
+  },
+  {
+    "id": "fine_YACJMPgmux",
+    "carId": "XtlmU8KIMg0J",
+    "customerId": "pWaJOXRS9CSH",
+    "amount": 40,
+    "points": 0,
+    "date": "2026-01-13",
+    "reason": "",
+    "isPaid": true,
+    "amountPaid": 40,
+    "createdAt": "2026-01-15T21:48:56.794Z"
+  },
+  {
+    "id": "fine_oWxe2hf_D-",
+    "carId": "7_NLhMK7uN9X",
+    "customerId": "tE-NBIE8YnE2",
+    "amount": 10,
+    "points": 0,
+    "date": "2026-01-13",
+    "reason": "",
+    "isPaid": true,
+    "amountPaid": 10,
+    "createdAt": "2026-01-15T21:52:35.963Z"
+  },
+  {
+    "id": "fine_7lReZZBxaL",
+    "carId": "4MN-RVT3BV7U",
+    "customerId": "cs31tvd_VM5a",
+    "amount": 10,
+    "points": 0,
+    "date": "2026-01-10",
+    "reason": "",
+    "isPaid": true,
+    "amountPaid": 10,
+    "createdAt": "2026-01-15T21:56:07.722Z"
+  }
+]
