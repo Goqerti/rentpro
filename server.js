@@ -1,4 +1,4 @@
-// server.js — V3 (Updated Calendar & Revenue Logic)
+// server.js — V2 (FINAL FIX: Ödəniş zamanı tarix pozulması həll edildi)
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
@@ -21,7 +21,8 @@ dayjs.extend(isSameOrAfter);
 dayjs.extend(isSameOrBefore);
 const DEFAULT_TZ = 'Asia/Baku';
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3001;
+
 // Paths
 const DB_DIR = path.join(__dirname, 'db');
 const PUBLIC_DIR = path.join(__dirname, 'public');
@@ -165,14 +166,7 @@ function hasOverlap(reservations, carId, startAt, endAt, ignoreId=null){
     
     if (['CANCELED', 'COMPLETED'].includes(String(r.status || '').toUpperCase())) continue;
     
-    // YENİ: Saatlıq kəsişməni yoxlayırıq (startAt və endAt varsa)
-    if (r.startAt && r.endAt) {
-        const rStart = toMs(r.startAt);
-        const rEnd = toMs(r.endAt);
-        if (rangeOverlap(s, e, rStart, rEnd)) return true;
-    } 
-    // FALLBACK: Köhnə gün əsaslı yoxlama
-    else if (r.days && r.days.length > 0) {
+    if (r.days && r.days.length > 0) {
         const firstDay = r.days[0].date;
         const lastDay = r.days[r.days.length - 1].date;
         const endMs = toMs(dayjs(lastDay).add(1, 'day')); 
@@ -537,6 +531,7 @@ app.post('/api/reservations', (req, res) => {
     res.status(201).json(item);
 });
 
+// ==== FINAL FIX: NO DATE OVERWRITE & NO DUPLICATES ====
 app.patch('/api/reservations/day/:id', (req, res) => {
     const reservationId = req.params.id;
     const { daysToUpdate } = req.body; 
@@ -552,7 +547,10 @@ app.patch('/api/reservations/day/:id', (req, res) => {
     let reservation = reservations[resIndex];
     
     daysToUpdate.forEach(updatedDay => {
-        const dayIndex = reservation.days.findIndex(d => d.date === updatedDay.date);
+        // 1. Tarix müqayisəsi (Dayjs ilə dəqiq yoxlama)
+        const dayIndex = reservation.days.findIndex(d => 
+            dayjs(d.date).isSame(dayjs(updatedDay.date), 'day')
+        );
         
         const newDayData = {
             date: updatedDay.date,
@@ -569,18 +567,18 @@ app.patch('/api/reservations/day/:id', (req, res) => {
 
         if (dayIndex !== -1) {
             const existingDay = reservation.days[dayIndex];
-            reservation.days[dayIndex] = { ...existingDay, ...newDayData };
+            // Formatın pozulmaması üçün tarixi (date) existingDay-dən götürürük
+            reservation.days[dayIndex] = { ...existingDay, ...newDayData, date: existingDay.date };
         } else {
-            reservation.days.push(newDayData);
+            // 2. Dublikat qorunması: Tapılmayan günləri avtomatik əlavə ETMİRİK
+            console.log(`⚠️ Xəbərdarlıq: ${updatedDay.date} tarixi rezervasiyada tapılmadı. Yeni gün yaradılmır.`);
         }
     });
 
     reservation.days.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-    if (reservation.days.length > 0) {
-        reservation.startAt = dayjs.tz(reservation.days[0].date, DEFAULT_TZ).format('YYYY-MM-DDTHH:mm');
-        reservation.endAt = dayjs.tz(reservation.days[reservation.days.length - 1].date, DEFAULT_TZ).format('YYYY-MM-DDTHH:mm');
-    }
+    // 3. VACİB DÜZƏLİŞ: startAt və endAt-ın dəyişdirilməsini SİLDİK.
+    // Ödəniş edəndə giriş-çıxış tarixləri pozulmasın deyə bu hissə ləğv edildi.
 
     reservation = recalculateReservationTotals(reservation);
     reservation.updatedAt = new Date().toISOString();
@@ -858,21 +856,21 @@ app.delete('/api/car-expenses/:id', (req, res) => {
     res.json({ message: 'Deleted' });
 });
 
-// ===== REVENUE API (YENİLƏNİB: Start Date əsaslı) =====
+// ===== REVENUE API =====
 app.get('/api/revenue', (req, res)=> {
   try {
-    const { month, day } = req.query; // day formatı: YYYY-MM-DD
+    const { month, day } = req.query;
     const reservations = readJsonSafe(reservationsPath);
     let items = [];
     
-    // YENİ MƏNTİQ: Gəliri 'startAt' tarixinə görə hesablayırıq
     if (day) {
-        items = reservations.filter(r => {
-             if(!r.startAt) return false;
-             return r.startAt.startsWith(day);
+        const targetDay = dayjs.tz(day, DEFAULT_TZ);
+        reservations.forEach(r => {
+            if(r.days && r.days.find(d => dayjs.tz(d.date, DEFAULT_TZ).isSame(targetDay, 'day'))) {
+                items.push(r);
+            }
         });
     } else {
-        // Ay seçilibsə
         let start = dayjs.tz().startOf('month');
         let end = dayjs.tz().endOf('month');
         if (month) {
@@ -880,11 +878,13 @@ app.get('/api/revenue', (req, res)=> {
             start = dayjs.tz(new Date(y, m-1, 1)).startOf('month');
             end   = start.endOf('month');
         }
-        
-        items = reservations.filter(r => {
-            if(!r.startAt) return false;
-            const rDate = dayjs.tz(r.startAt, DEFAULT_TZ);
-            return rDate.isSameOrAfter(start) && rDate.isSameOrBefore(end);
+        reservations.forEach(r => {
+            if(r.days && r.days.find(d => {
+                const day = dayjs.tz(d.date, DEFAULT_TZ);
+                return day.isSameOrAfter(start) && day.isSameOrBefore(end);
+            })) {
+                items.push(r);
+            }
         });
     }
     
@@ -1144,7 +1144,7 @@ app.get('/api/dashboard-stats', (req, res) => {
     }
 });
 
-// ===== CALENDAR API (YENİLƏNİB: Saatlıq & TimeGrid) =====
+// ===== CALENDAR API =====
 app.get('/api/calendar-reservations', (req, res) => {
     try {
         const reservations = readJsonSafe(reservationsPath);
@@ -1152,19 +1152,7 @@ app.get('/api/calendar-reservations', (req, res) => {
         const customers = readJsonSafe(customersPath);
 
         const events = reservations.map(r => {
-            // Köhnə data üçün fallback (ehtiyat)
-            if (!r.startAt || !r.endAt) {
-                 if (!r.days || r.days.length === 0) return null;
-                 const firstDay = r.days[0].date;
-                 const lastDay = r.days[r.days.length - 1].date;
-                 return {
-                    id: r.id,
-                    title: `Köhnə Data`,
-                    start: firstDay,
-                    end: dayjs(lastDay).add(1, 'day').format('YYYY-MM-DD'),
-                    allDay: true 
-                 };
-            }
+            if (!r.days || r.days.length === 0) return null;
             
             const car = cars.find(c => c.id === r.carId) || {};
             const customer = customers.find(c => c.id === r.customerId) || {};
@@ -1174,18 +1162,17 @@ app.get('/api/calendar-reservations', (req, res) => {
                 color = '#4a5b78'; // Boz (Bitdi)
             } else if (r.status === 'CANCELED') {
                 color = '#ef4444'; // Qırmızı (Ləğv edildi)
-            } else if (r.status === 'ACTIVE') {
-                color = '#10b981'; // Yaşıl (Aktiv - Maşın müştəridədir)
             }
+
+            const firstDay = r.days[0].date;
+            const lastDay = r.days[r.days.length - 1].date;
 
             return {
                 id: r.id,
                 title: `${car.brand} ${car.model} (${car.plate}) - ${customer.firstName}`,
-                start: r.startAt, // Saatı olan format (2026-01-04T13:00)
-                end: r.endAt,     // Qaytarma vaxtı (2026-01-05T13:00)
-                allDay: false,    // TimeGrid üçün vacibdir
-                backgroundColor: color,
-                borderColor: color,
+                start: firstDay,
+                end: dayjs(lastDay).add(1, 'day').format('YYYY-MM-DD'),
+                color: color,
                 extendedProps: {
                     notes: r.notes || '',
                     totalPrice: r.totalPrice,
@@ -1203,7 +1190,7 @@ app.get('/api/calendar-reservations', (req, res) => {
 
 // ===== REPORTS API =====
 
-// 1. Yeni Əlavə: Avtomobil üzrə Detallı Aylıq Hesabat (Bu hissə əlavə edildi!)
+// 1. Yeni Əlavə: Avtomobil üzrə Detallı Aylıq Hesabat
 app.get('/api/reports/single-car-monthly', (req, res) => {
     try {
         const { carId, month } = req.query; // month formatı: 'YYYY-MM'
@@ -1231,8 +1218,8 @@ app.get('/api/reports/single-car-monthly', (req, res) => {
             
             if (daysInMonth.length > 0) {
                 const incomeFromMonth = daysInMonth.reduce((sum, d) => sum + (d.price || 0), 0);
-                const paidFromMonth = daysInMonth.reduce((sum, d) => sum + (d.paid || 0), 0); // YENİ
-                const remainingFromMonth = incomeFromMonth - paidFromMonth; // YENİ
+                const paidFromMonth = daysInMonth.reduce((sum, d) => sum + (d.paid || 0), 0);
+                const remainingFromMonth = incomeFromMonth - paidFromMonth;
 
                 revenue += incomeFromMonth;
 
@@ -1245,8 +1232,8 @@ app.get('/api/reports/single-car-monthly', (req, res) => {
                     endDate: r.endAt,
                     daysCount: daysInMonth.length, 
                     totalIncome: incomeFromMonth, 
-                    totalPaid: paidFromMonth, // YENİ
-                    remaining: remainingFromMonth, // YENİ
+                    totalPaid: paidFromMonth,
+                    remaining: remainingFromMonth,
                     status: r.status
                 });
             }
